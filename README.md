@@ -60,7 +60,7 @@ In an effort to reduce the risk of a successful cyber attack, CISA recommends th
 |Establish blame-free employee reporting and ensure that employees know who to contact when they see suspicious activity or when they believe they have been a victim of a cyberattack. This will ensure that the proper established mitigation strategy can be employed quickly and efficiently.|   |
 | Ensure existing built-in filtering and detection products (e.g., those for spam, phishing, malware, and safe attachments and links are enabled. |   |
 
-| Organizations using M365 should also consider the following steps.|   | 
+| Organizations using M365 should also consider the following steps.| Response  | 
 |----------|----------|
 | Assign a few (one to three) trusted users as electronic discovery (or eDiscovery) managers to conduct forensic content searches across the entire M365 environment (Mailboxes, Teams, SharePoint, and OneDrive) for evidence of malicious activity. |   |
 | Disable PowerShell remoting to Exchange Online for regular M365 users. Disabling for non-administrative users will lower the likelihood of a compromised user account being used to programmatically access tenant configurations for reconnaissance. |   |
