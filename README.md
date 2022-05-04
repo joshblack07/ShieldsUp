@@ -69,6 +69,9 @@ In an effort to reduce the risk of a successful cyber attack, CISA recommends th
 
 ## IoC and File Bans
 
+Indicators of compromise (IOCs) are “pieces of forensic data, such as data found in system log entries or files, that identify potentially malicious activity on a system or network.” Indicators of compromise aid information security and IT professionals in detecting data breaches, malware infections, or other threat activity. By monitoring for indicators of compromise, organizations can detect attacks and act quickly to prevent breaches from occurring or limit damages by stopping attacks in earlier stages.
+
+CISA has identified many vulnerabilities or attacks and compiled a list of the associated file hashes.  It is important to review CISA's list and add file bans to keep the malicious files off the network.  With any new file approval requests, always check sites like [Virus Total](https://www.virustotal.com/gui/home/upload "Virus Total") to research the validity/hygiene of a file.
 
  IOCs associated with WhisperGate
  
