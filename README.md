@@ -66,3 +66,87 @@ In an effort to reduce the risk of a successful cyber attack, CISA recommends th
 | Disable PowerShell remoting to Exchange Online for regular M365 users. Disabling for non-administrative users will lower the likelihood of a compromised user account being used to programmatically access tenant configurations for reconnaissance. |   |
 |Do not allow an unlimited amount of unsuccessful login attempts. To configure these settings, see password smart lockout configuration and sign-in activity reports.|   |
 | Consider using a tool such as Sparrow or Hawk—open-source PowerShell-based tools used to gather information related to M365—to investigate and audit intrusions and potential breaches. |   |
+
+## IoC and File Bans
+
+
+ IOCs associated with WhisperGate
+ 
+ | File Name   | Hash| 
+|----------|----------|
+| WhisperGate | a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92  |
+| WhisperGate | dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78 |
+
+
+IOCs associated with HermeticWiper
+
+| File Name   | Hash| 
+|----------|----------|
+| Win32/KillDisk.NCV | 912342F1C840A42F6B74132F8A7C4FFE7D40FB77   |
+| Win32/KillDisk.NCV | 61B25D11392172E587D8DA3045812A66C3385451 |
+| HermeticWiper |  	912342f1c840a42f6b74132f8a7c4ffe7d40fb77 | 
+| HermeticWiper | 61b25d11392172e587d8da3045812a66c3385451  |
+| RCDATA_DRV_X64 | 	a952e288a1ead66490b3275a807f52e5  | 
+| RCDATA_DRV_X86 | 231b3385ac17e41c5bb1b1fcb59599c4  |
+| RCDATA_DRV_XP_X64 | 095a1678021b034903c85dd5acb447ad | 
+| RCDATA_DRV_XP_X8 | eb845b7a16ed82bd248e395d9852f467 |
+| Trojan.Killdisk| 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591  | 
+| Trojan.Killdisk | 0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da  |
+| Trojan.Killdisk |  a64c3e0522fad787b95bfb6a30c3aed1b5786e69e88e023c062ec7e5cebf4d3e | 
+| Ransomware |  4dc13bb83a16d4ff9865a51b3e4d24112327c526c1392e14d56f20d6f4eaf382 |
+
+
+ IOCs associated with CaddyWiper
+ 
+ | File Name   | Hash| 
+|----------|----------|
+| caddy.exe | a294620543334a721a2ae8eaaf9680a0786f4b9a216d75b55cfd28f39e9430ea  |
+
+
+ IOCs associated with BlackMatter
+ 
+ | File Name   | Hash| 
+|----------|----------|
+| BlackMatter | 22D7D67C3AF10B1A37F277EBABE2D1EB4FD25AFBD6437D4377400E148BCC08D6  |
+
+
+ IOCs associated with BlackCat/ALPHV
+ 
+|Powershell Scripts|
+| File Name   | Hash| 
+|----------|----------|
+| amd - Copy.ps1| 861738dd15eb7fb50568f0e39a69e107  |
+| ipscan.ps1  |  9f60dd752e7692a2f5c758de4eab3e6f |
+| Run1.ps1| 09bc47d7bc5e40d40d9729cec5e39d73  | 
+
+|Batch Scripts|
+| File Name   | Hash| 
+|----------|----------|
+| CheckVuln.bat| f5ef5142f044b94ac5010fd883c09aa7 |
+| Create-share-RunAsAdmin.bat |  84e3b5fe3863d25bb72e25b10760e861 |
+| LPE-Exploit-RunAsUser.bat | 9f2309285e8a8471fce7330fcade8619 | 
+| RCE-Exploit-RunAsUser.bat  |  6c6c46bdac6713c94debbd454d34efd9 |
+| est.bat   |  e7ee8ea6fb7530d1d904cdb2d9745899 |
+| runav.bat  |  815bb1b0c5f0f35f064c55a1b640fca5 |
+
+|Executables and DLLs|
+| File Name   | Hash| 
+|----------|----------|
+| http_x64.exe  | 6c2874169fdfb30846fe7ffe34635bdb  |
+| spider.dll  | 20855475d20d252dda21287264a6d860  |
+| spider_32.dll   | 82db4c04f5dcda3bfcd75357adf98228  |
+| powershell.dll   |  fcf3a6eeb9f836315954dae03459716d |
+|  rpcdump.exe |  91625f7f5d590534949ebe08cc728380 |
+
+|BlackCat Ransomware SHA256 Hashes|
+| File Name   | Hash| 
+|----------|----------|
+| BlackCat  | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 |
+|  BlackCat |  
+f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb |
+|  BlackCat | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161  |
+| BlackCat  |  80dd44226f60ba5403745ba9d18490eb8ca12dbc9be0a317dd2b692ec041da28 |
+
+
+
+
