@@ -112,14 +112,14 @@ IOCs associated with HermeticWiper
 
  IOCs associated with BlackCat/ALPHV
  
-|Powershell Scripts|
+BlackCat/ALPHV: Powershell Scripts
 | File Name   | Hash| 
 |----------|----------|
 | amd - Copy.ps1| 861738dd15eb7fb50568f0e39a69e107  |
 | ipscan.ps1  |  9f60dd752e7692a2f5c758de4eab3e6f |
 | Run1.ps1| 09bc47d7bc5e40d40d9729cec5e39d73  | 
 
-|Batch Scripts|
+BlackCat/ALPHV: Batch Scripts
 | File Name   | Hash| 
 |----------|----------|
 | CheckVuln.bat| f5ef5142f044b94ac5010fd883c09aa7 |
@@ -129,7 +129,7 @@ IOCs associated with HermeticWiper
 | est.bat   |  e7ee8ea6fb7530d1d904cdb2d9745899 |
 | runav.bat  |  815bb1b0c5f0f35f064c55a1b640fca5 |
 
-|Executables and DLLs|
+BlackCat/ALPHV: Executables and DLLs
 | File Name   | Hash| 
 |----------|----------|
 | http_x64.exe  | 6c2874169fdfb30846fe7ffe34635bdb  |
@@ -138,7 +138,7 @@ IOCs associated with HermeticWiper
 | powershell.dll   |  fcf3a6eeb9f836315954dae03459716d |
 |  rpcdump.exe |  91625f7f5d590534949ebe08cc728380 |
 
-|BlackCat Ransomware SHA256 Hashes|
+BlackCat/ALPHV:  SHA256 Hashes
 | File Name   | Hash| 
 |----------|----------|
 | BlackCat  | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 |
