@@ -142,8 +142,7 @@ BlackCat/ALPHV:  SHA256 Hashes
 | File Name   | Hash| 
 |----------|----------|
 | BlackCat  | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 |
-|  BlackCat |  
-f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb |
+|  BlackCat |  f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb |
 |  BlackCat | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161  |
 | BlackCat  |  80dd44226f60ba5403745ba9d18490eb8ca12dbc9be0a317dd2b692ec041da28 |
 
